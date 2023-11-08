@@ -1,0 +1,58 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+.main--container{
+    background-color: rgb(172, 207, 172);
+    height: 100vh;
+    width: 100vw;    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch--container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height:50%;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+}
+
+.counter--container{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 20px;
+
+
+}
+
+.control--buttons{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.control--button{
+    width: 4rem;
+    height: 1.5rem;
+    border: 1px solid black;    
+    border-radius: 5px;
+    transition: 300ms ease;
+}
+
+.control--button:hover{
+    transform: translatey(0.1rem);
+}
+
+.pause--button{
+    margin: 1rem;
+
+}
+
